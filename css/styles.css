@@ -1,12 +1,13 @@
 body {
     font-family: Comic Sans MS, serif;
 }
+
 /*/** HEADER **/
 #header-nav {
   background-color: #b6b6b6;
   border-radius: 0;
   border: 0;
- }
+  }
 
 .navbar-brand h4 { /*/* company name */
   font-family: Comic Sans MS, serif;
@@ -17,6 +18,7 @@ body {
   margin-top: 2px;
   margin-bottom: 2px;
 }
+
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -49,14 +51,12 @@ body {
   font-size: 1.8em;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid black;
+.navbar-header button.navbar-toggle {
+    clear: both;
+    background-color: #b6b6b6;
+    margin-top: -30px;
 }
 
-.navbar-header button.navbar-toggle {
-  clear: both;
-  background-color: #b6b6b6;
-}
 /*!* <!--   END HEADER  -->*!*/
 
 
@@ -78,7 +78,6 @@ body {
   font-size: 150%;
   font-weight: bolder;
   padding-top: 5px;
-  text-align: center;
 }
 
 p {
